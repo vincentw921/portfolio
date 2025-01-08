@@ -20,7 +20,7 @@
 .scene .rocket .body {
     scale: 0.2;
     position: relative;
-    bottom: -140px;
+    bottom: -30vh;
     border-radius: 10px;
 }
 
@@ -39,7 +39,7 @@
 {
     content: '';
     position: absolute;
-    bottom: -70px;
+    bottom: -15vh;
     left: 50%;
     transform: translateX(-50%);
     width: 10px;
@@ -50,7 +50,7 @@
 .scene .rocket::after {
     content: '';
     position: absolute;
-    bottom: -70px;
+    bottom: -15vh;
     left: 50%;
     transform: translateX(-50%);
     width: 10px;

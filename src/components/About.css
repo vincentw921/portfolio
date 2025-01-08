@@ -1,4 +1,4 @@
-.hide {
+.scene .hide {
     display: none;
     position: absolute;
     bottom: 70vh;
@@ -7,14 +7,16 @@
     text-align: center;
 }
 
-.about-logo {
+.scene .about-logo {
     scale: 0.12;
     position: absolute;
-    bottom: -90vh;
+    top: 0;
+    right: 100;
+    bottom: 100vh;
     left: -60%;
 }
 
-.about-logo:hover + .hide {
+.scene .about-logo:hover + .hide {
     left: 40%;
     display: block;
 }

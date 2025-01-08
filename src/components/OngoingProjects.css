@@ -7,10 +7,12 @@
     text-align: center;
 }
 
-.ongoing-projects-logo {
+.scene .ongoing-projects-logo {
     scale: 0.12;
     position: absolute;
-    bottom: -90vh;
+    top: 0;
+    right: 100;
+    bottom: 100vh;
     left: 0%;
 }
 

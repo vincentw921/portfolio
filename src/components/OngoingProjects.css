@@ -1,0 +1,27 @@
+.hide {
+    display: none;
+    position: absolute;
+    bottom: 70vh;
+    left: 35%;
+    margin: auto;
+    text-align: center;
+}
+
+.ongoing-projects-logo {
+    scale: 0.12;
+    position: absolute;
+    bottom: -90vh;
+    left: 0%;
+}
+
+.ongoing-projects-logo:hover + .hide {
+    left: 35%;
+    display: block;
+}
+
+h1 {
+    color: #aab5b8;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}

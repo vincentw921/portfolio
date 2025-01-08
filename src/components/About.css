@@ -1,0 +1,27 @@
+.hide {
+    display: none;
+    position: absolute;
+    bottom: 70vh;
+    left: 25%;
+    margin: auto;
+    text-align: center;
+}
+
+.about-logo {
+    scale: 0.12;
+    position: absolute;
+    bottom: -90vh;
+    left: -60%;
+}
+
+.about-logo:hover + .hide {
+    left: 40%;
+    display: block;
+}
+
+h1 {
+    color: #aab5b8;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}

@@ -12,15 +12,16 @@
 }
 
 .scene .rocket {
-    align-content: center;
-    position: relative;
     animation: animate 0.2s ease infinite;
+    position: absolute;
+    bottom: -20vh;
 }
 
 .scene .rocket .body {
     scale: 0.2;
-    position: relative;
-    bottom: -30vh;
+
+    left: 50%;
+    
     border-radius: 10px;
 }
 
@@ -39,7 +40,7 @@
 {
     content: '';
     position: absolute;
-    bottom: -15vh;
+    bottom: 15vh;
     left: 50%;
     transform: translateX(-50%);
     width: 10px;
@@ -50,7 +51,7 @@
 .scene .rocket::after {
     content: '';
     position: absolute;
-    bottom: -15vh;
+    bottom: 15vh;
     left: 50%;
     transform: translateX(-50%);
     width: 10px;

@@ -10,8 +10,4 @@ function App() {
   );
 }
 
-// {/* <header className="App-header"> */}
-//         {/* <Startup /> */
-//       // </header>
-
 export default App;

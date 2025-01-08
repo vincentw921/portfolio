@@ -29,12 +29,3 @@
       transform: rotate(360deg);
     }
 }
-
-@keyframes App-logo-left {
-    from {
-      transform: scaleX(2) scaleY(2);
-    }
-    to {
-      transform: scaleX(1) scaleY(1);
-    }
-}

@@ -1,16 +1,8 @@
-import logo from './logo512.png';
+import logo from './logo.png';
 import './Startup.css';
 import { motion } from 'framer-motion';
 
 function Startup() {
-    // if (x >= limits.right || x <= limits.left) {
-    //     xvel *= -1;
-    //     x = Math.max(limits.left, Math.min(limits.right, x))
-    // }
-    // if (y >= limits.bottom || y <= limits.top) {
-    //     yvel *= -1;
-    //     y = Math.max(limits.top, Math.min(limits.bottom, y))
-    // }
     return (
         <header className="Startup-header">
             <motion.div

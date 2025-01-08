@@ -1,0 +1,17 @@
+.scene i {
+    position: absolute;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.5);
+    animation: animateStars linear infinite;
+}
+
+@keyframes animateStars {
+    0%
+    {
+        transform: translateY(0px);
+    }
+    100%
+    {
+        transform: translateY(100vh);
+    }
+}

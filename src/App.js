@@ -1,11 +1,13 @@
 import './App.css';
-// import Startup from './Startup';
-import RocketShip from './components/RocketShip';
+
+import { Fragment, useState } from 'react';
+
+import Game from './tic-tac-toe/Game';
 
 function App() {
   return (
     <div className="App">
-      <RocketShip />
+      <Game />
     </div>
   );
 }

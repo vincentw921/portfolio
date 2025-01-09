@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 25vh;
+    color: #333;
+}
+
+.start-button {
+    margin-top: 10vh;
+    margin-left: 25vw;
+
+    font-size: 15vh;
+    font-weight: bold;
+    padding: 10px;
+    align-self: center;
+    text-align: center;
+}

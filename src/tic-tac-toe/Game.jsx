@@ -132,4 +132,10 @@ import { Fragment, useState } from 'react';
 //     // }
 // }
 
-// export default Game;
+function Game() {
+  return (
+    <StartScreen />
+  );
+}
+
+export default Game;

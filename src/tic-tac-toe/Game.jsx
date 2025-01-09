@@ -118,15 +118,18 @@ function GameBody( {setIsFinished} ) {
 function Game() {
     const [gameStarted, setGameStarted] = useState(false);
     const [isFinished, setIsFinished] = useState(null);
-    if (!gameStarted || isFinished) {
-        return (
-            <StartScreen onStartClick={() => setGameStarted(true)} winner={isFinished} onRestartClicked={() => setIsFinished(null)} />
-        );
-    } else {
-        return (
-            <GameBody setIsFinished={setIsFinished} />
-        );
-    }
+    return (
+        <GameBody setIsFinished={setIsFinished} />
+    );
+    // if (!gameStarted || isFinished) {
+    //     return (
+    //         <StartScreen onStartClick={() => setGameStarted(true)} winner={isFinished} onRestartClicked={() => setIsFinished(null)} />
+    //     );
+    // } else {
+    //     return (
+    //         <GameBody setIsFinished={setIsFinished} />
+    //     );
+    // }
 }
 
 export default Game;

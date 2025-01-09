@@ -1,7 +1,5 @@
 import './App.css';
 
-import { Fragment, useState } from 'react';
-
 import Game from './tic-tac-toe/Game';
 
 function App() {

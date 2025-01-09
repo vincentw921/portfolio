@@ -1,8 +1,8 @@
-// import './Game.css';
+import './Game.css';
 
-// import StartScreen from './StartScreen';
+import StartScreen from './StartScreen';
 
-// import { Fragment, useState } from 'react';
+import { Fragment, useState } from 'react';
 
 // function Square( {value, onSquareClick} ) {
 //   return (
@@ -115,18 +115,22 @@
 //   );
 // }
 
-// function Game() {
-//     const [gameStarted, setGameStarted] = useState(false);
-//     const [isFinished, setIsFinished] = useState(null);
-//     if (!gameStarted || isFinished) {
-//         return (
-//             <StartScreen onStartClick={() => setGameStarted(true)} winner={isFinished} onRestartClicked={() => setIsFinished(null)} />
-//         );
-//     } else {
-//         return (
-//             <GameBody setIsFinished={setIsFinished} />
-//         );
-//     }
-// }
+function Game() {
+    const [gameStarted, setGameStarted] = useState(false);
+    const [isFinished, setIsFinished] = useState(null);
+    return (
+        <StartScreen onStartClick={() => setGameStarted(true)} winner={isFinished} onRestartClicked={() => setIsFinished(null
+        )} />
+    );
+    // if (!gameStarted || isFinished) {
+    //     return (
+    //         <StartScreen onStartClick={() => setGameStarted(true)} winner={isFinished} onRestartClicked={() => setIsFinished(null)} />
+    //     );
+    // } else {
+    //     return (
+    //         <GameBody setIsFinished={setIsFinished} />
+    //     );
+    // }
+}
 
-// export default Game;
+export default Game;

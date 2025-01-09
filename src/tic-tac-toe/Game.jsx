@@ -116,11 +116,10 @@ import { Fragment, useState } from 'react';
 // }
 
 function Game() {
-    const [gameStarted, setGameStarted] = useState(false);
-    const [isFinished, setIsFinished] = useState(null);
+    // const [gameStarted, setGameStarted] = useState(false);
+    // const [isFinished, setIsFinished] = useState(null);
     return (
-        <StartScreen onStartClick={() => setGameStarted(true)} winner={isFinished} onRestartClicked={() => setIsFinished(null
-        )} />
+        <StartScreen onStartClick={() => null} winner={false} onRestartClicked={() => null} />
     );
     // if (!gameStarted || isFinished) {
     //     return (

@@ -99,21 +99,22 @@ function GameBody( {setIsFinished} ) {
         <div className="game-info">
             {status}
         </div>
-        <div className="game-board">
-          <Board isXNext={isXNext} squares={currentSquares} onPlay={handlePlay} />
-        </div>
-      </div>
-      <div>
-        <div className="game-button">
-          <button onClick={() => setStepNumber(Math.max(stepNumber - 1, 0))}>Undo</button>
-        </div>
-        <div className="game-button">
-          <button onClick={() => setStepNumber(Math.min(stepNumber + 1, history.length - 1))}>Redo</button>
-        </div>
       </div>
     </div>
   );
 }
+
+// {/* <div className="game-board">
+//           <Board isXNext={isXNext} squares={currentSquares} onPlay={handlePlay} />
+//         </div>
+//       </div>
+//       <div>
+//         <div className="game-button">
+//           <button onClick={() => setStepNumber(Math.max(stepNumber - 1, 0))}>Undo</button>
+//         </div>
+//         <div className="game-button">
+//           <button onClick={() => setStepNumber(Math.min(stepNumber + 1, history.length - 1))}>Redo</button>
+//         </div> */}
 
 function Game() {
     const [gameStarted, setGameStarted] = useState(false);

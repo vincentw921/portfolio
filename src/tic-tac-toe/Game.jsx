@@ -1,8 +1,8 @@
 import './Game.css';
 
-import StartScreen from './StartScreen';
-
 import { useState } from 'react';
+
+import StartScreen from './StartScreen';
 
 // function Square( {value, onSquareClick} ) {
 //   return (

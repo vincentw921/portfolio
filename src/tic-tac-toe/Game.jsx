@@ -1,6 +1,6 @@
 import './Game.css';
 
-import { useState } from 'react';
+import React, { Fragment, useState } from 'react';
 
 import StartScreen from './StartScreen';
 

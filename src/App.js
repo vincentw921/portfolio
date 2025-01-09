@@ -2,7 +2,7 @@ import './App.css';
 
 // import Game from './tic-tac-toe/Game';
 
-import RocketShip from './rocket-ship/RocketShip';
+import RocketShip from './components/RocketShip';
 
 function App() {
   return (
